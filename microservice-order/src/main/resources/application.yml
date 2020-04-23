@@ -1,6 +1,8 @@
 server:
   port: 8082
 
+# todo 如果item对应地址发生变化，就需要修改配置文件
+# todo 如果有多个item地址，想要实现负载均衡，如何配置
 myspcloud:
   item:
     url: http://127.0.0.1:8081/item/

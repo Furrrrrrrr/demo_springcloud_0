@@ -4,6 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
+/**
+ * todo order中用到了item类，是从item项目中直接复制过来的
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
