@@ -13,6 +13,7 @@ public class ItemService {
     private RestTemplate restTemplate;
 
     public Item queryItemById(Long id) {
+        // todo 硬编码问题
         return this.restTemplate.getForObject("http://127.0.0.1:8081/item/"
                 + id, Item.class);
     }
