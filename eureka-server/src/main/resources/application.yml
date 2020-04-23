@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: app-eureka-center
+  security:
+    basic:
+      enable: true #开启基于HTTP basic的认证
+    user: #配置用户的账号信息
+      name: vash
+      password: ewq321
 
 eureka:
   instance:
